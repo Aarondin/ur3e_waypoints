@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o[0m
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:52:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   52 |     for (int i;[01;35m[Ki<=waypoints.size()[m[K;i++) {
+      |                [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable moveit_pub[0m
+[100%] Built target moveit_pub
+-- Install configuration: ""
+-- Installing: /home/aaron/ur_ws/install/moveit_control/lib/moveit_pub
+-- Set runtime path of "/home/aaron/ur_ws/install/moveit_control/lib/moveit_pub" to ""
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/package_run_dependencies/moveit_control
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/parent_prefix_path/moveit_control
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.sh
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/path.sh
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/path.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.bash
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.sh
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.zsh
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.dsv
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/package.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/packages/moveit_control
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig-version.cmake
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/package.xml

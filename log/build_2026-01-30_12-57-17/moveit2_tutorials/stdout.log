@@ -1,0 +1,26 @@
+[  3%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[  7%] [32m[1mLinking CXX executable robot_model_and_robot_state_tutorial[0m
+[ 11%] [32m[1mLinking CXX executable planning_scene_tutorial[0m
+[ 15%] [32m[1mLinking CXX executable ompl_constrained_planning[0m
+[ 19%] [32m[1mLinking CXX executable minimal_mtc_tutorial[0m
+[ 23%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[ 26%] [32m[1mLinking CXX executable moveit_cpp_tutorial[0m
+[ 30%] [32m[1mLinking CXX executable motion_planning_api_tutorial[0m
+[ 34%] [32m[1mLinking CXX executable move_group_interface_tutorial[0m
+[ 38%] [32m[1mLinking CXX executable planning_scene_ros_api_tutorial[0m
+[ 42%] [32m[1mLinking CXX executable pilz_move_group[0m
+[ 50%] [32m[1mLinking CXX executable mtc_tutorial[0m
+[ 50%] [32m[1mLinking CXX executable pilz_mtc[0m
+[ 53%] Built target move_group_interface_tutorial
+[ 57%] Built target planning_scene_tutorial
+[ 61%] Built target moveit_cpp_tutorial
+[ 65%] Built target planning_scene_ros_api_tutorial
+[ 69%] Built target pilz_move_group
+[ 73%] Built target pilz_mtc
+[ 76%] Built target ompl_constrained_planning
+[ 80%] Built target robot_model_and_robot_state_tutorial
+[ 84%] Built target motion_planning_api_tutorial
+[ 88%] Built target servo_cpp_interface_demo
+[ 92%] Built target mtc_tutorial
+[ 96%] Built target minimal_mtc_tutorial
+[100%] Built target servo_keyboard_input

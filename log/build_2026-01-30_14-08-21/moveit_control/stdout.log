@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o[0m
+[100%] [32m[1mLinking CXX executable moveit_pub[0m
+[100%] Built target moveit_pub
+-- Install configuration: ""
+-- Installing: /home/aaron/ur_ws/install/moveit_control/lib/moveit_pub
+-- Set runtime path of "/home/aaron/ur_ws/install/moveit_control/lib/moveit_pub" to ""
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/package_run_dependencies/moveit_control
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/parent_prefix_path/moveit_control
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.sh
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/path.sh
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/path.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.bash
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.sh
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.zsh
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.dsv
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/package.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/packages/moveit_control
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig-version.cmake
+-- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/package.xml

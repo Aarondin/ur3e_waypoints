@@ -1,0 +1,29 @@
+[0.023s] Invoking command in '/home/aaron/ur_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_kinematics -- -j20 -l20
+[0.077s] [  5%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[0.078s] [ 10%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[0.080s] [ 15%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/chainiksolver_vel_mimic_svd.cpp.o[0m
+[0.083s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.084s] [ 26%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[0.091s] [ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.092s] [ 36%] [32mBuilding CXX object lma_kinematics_plugin/CMakeFiles/moveit_lma_kinematics_plugin.dir/src/lma_kinematics_plugin.cpp.o[0m
+[0.099s] [ 42%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[7.822s] [ 47%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.937s] [ 47%] Built target gtest_main
+[28.029s] [ 52%] [32m[1mLinking CXX executable benchmark_ik[0m
+[29.029s] [ 52%] Built target benchmark_ik
+[29.844s] [ 57%] [32m[1mLinking CXX shared library libmoveit_lma_kinematics_plugin.so[0m
+[30.143s] [ 63%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_base.so[0m
+[30.221s] [ 63%] Built target moveit_lma_kinematics_plugin
+[30.525s] [ 63%] Built target moveit_cached_ik_kinematics_base
+[34.332s] [ 68%] [32m[1mLinking CXX static library libgtest.a[0m
+[34.451s] [ 68%] Built target gtest
+[38.847s] [ 73%] [32m[1mLinking CXX shared library libmoveit_kdl_kinematics_plugin.so[0m
+[39.022s] [ 73%] Built target moveit_kdl_kinematics_plugin
+[39.042s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o[0m
+[39.996s] [ 84%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[40.172s] [ 84%] Built target moveit_srv_kinematics_plugin
+[40.191s] [ 89%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_plugin.dir/src/cached_ik_kinematics_plugin.cpp.o[0m
+[47.478s] [ 94%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_plugin.so[0m
+[47.665s] [ 94%] Built target moveit_cached_ik_kinematics_plugin
+[60.693s] [100%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[61.121s] [100%] Built target test_kinematics_plugin

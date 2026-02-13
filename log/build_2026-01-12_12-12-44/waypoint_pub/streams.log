@@ -1,0 +1,34 @@
+[3.511s] Invoking command in '/home/aaron/ur_ws/src/waypoint_pub': PYTHONPATH=/home/aaron/ur_ws/build/waypoint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_pub build --build-base /home/aaron/ur_ws/build/waypoint_pub/build install --record /home/aaron/ur_ws/build/waypoint_pub/install.log --single-version-externally-managed install_data
+[3.675s] running egg_info
+[3.675s] creating ../../build/waypoint_pub/waypoint_pub.egg-info
+[3.676s] writing ../../build/waypoint_pub/waypoint_pub.egg-info/PKG-INFO
+[3.676s] writing dependency_links to ../../build/waypoint_pub/waypoint_pub.egg-info/dependency_links.txt
+[3.676s] writing entry points to ../../build/waypoint_pub/waypoint_pub.egg-info/entry_points.txt
+[3.676s] writing requirements to ../../build/waypoint_pub/waypoint_pub.egg-info/requires.txt
+[3.676s] writing top-level names to ../../build/waypoint_pub/waypoint_pub.egg-info/top_level.txt
+[3.676s] writing manifest file '../../build/waypoint_pub/waypoint_pub.egg-info/SOURCES.txt'
+[3.677s] reading manifest file '../../build/waypoint_pub/waypoint_pub.egg-info/SOURCES.txt'
+[3.677s] adding license file 'LICENSE'
+[3.677s] writing manifest file '../../build/waypoint_pub/waypoint_pub.egg-info/SOURCES.txt'
+[3.677s] running build
+[3.677s] running build_py
+[3.677s] creating /home/aaron/ur_ws/build/waypoint_pub/build
+[3.677s] creating /home/aaron/ur_ws/build/waypoint_pub/build/lib
+[3.677s] creating /home/aaron/ur_ws/build/waypoint_pub/build/lib/waypoint_pub
+[3.677s] copying waypoint_pub/__init__.py -> /home/aaron/ur_ws/build/waypoint_pub/build/lib/waypoint_pub
+[3.677s] running install
+[3.678s] running install_lib
+[3.678s] creating /home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages/waypoint_pub
+[3.678s] copying /home/aaron/ur_ws/build/waypoint_pub/build/lib/waypoint_pub/__init__.py -> /home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages/waypoint_pub
+[3.678s] byte-compiling /home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages/waypoint_pub/__init__.py to __init__.cpython-310.pyc
+[3.679s] running install_data
+[3.679s] creating /home/aaron/ur_ws/install/waypoint_pub/share/ament_index
+[3.679s] creating /home/aaron/ur_ws/install/waypoint_pub/share/ament_index/resource_index
+[3.679s] creating /home/aaron/ur_ws/install/waypoint_pub/share/ament_index/resource_index/packages
+[3.679s] copying resource/waypoint_pub -> /home/aaron/ur_ws/install/waypoint_pub/share/ament_index/resource_index/packages
+[3.679s] copying package.xml -> /home/aaron/ur_ws/install/waypoint_pub/share/waypoint_pub
+[3.679s] running install_egg_info
+[3.680s] Copying ../../build/waypoint_pub/waypoint_pub.egg-info to /home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages/waypoint_pub-0.0.0-py3.10.egg-info
+[3.680s] running install_scripts
+[3.693s] writing list of installed files to '/home/aaron/ur_ws/build/waypoint_pub/install.log'
+[3.707s] Invoked command in '/home/aaron/ur_ws/src/waypoint_pub' returned '0': PYTHONPATH=/home/aaron/ur_ws/build/waypoint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_pub build --build-base /home/aaron/ur_ws/build/waypoint_pub/build install --record /home/aaron/ur_ws/build/waypoint_pub/install.log --single-version-externally-managed install_data

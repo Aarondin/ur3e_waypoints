@@ -1,0 +1,44 @@
+[0.037s] Invoking command in '/home/aaron/ur_ws/build/moveit_control': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_ros_planning_interface/lib:/home/aaron/ur_ws/install/moveit_ros_move_group/lib:/home/aaron/ur_ws/install/moveit_ros_warehouse/lib:/home/aaron/ur_ws/install/moveit_planners_ompl/lib:/home/aaron/ur_ws/install/moveit_kinematics/lib:/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_simple_controller_manager/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_control -- -j20 -l20
+[0.066s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.207s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.257s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.293s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.296s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.303s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.351s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.352s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.435s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.470s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.477s] -- Found moveit_core: 2.5.9 (/home/aaron/ur_ws/install/moveit_core/share/moveit_core/cmake)
+[0.525s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.585s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.608s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.629s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.716s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.769s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.769s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.980s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[0.980s]   By not providing "Findmoveit_ros_task_constructor_core.cmake" in
+[0.980s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.980s]   configuration file provided by "moveit_ros_task_constructor_core", but
+[0.980s]   CMake did not find one.
+[0.980s] 
+[0.980s]   Could not find a package configuration file provided by
+[0.980s]   "moveit_ros_task_constructor_core" with any of the following names:
+[0.981s] 
+[0.981s]     moveit_ros_task_constructor_coreConfig.cmake
+[0.981s]     moveit_ros_task_constructor_core-config.cmake
+[0.981s] 
+[0.981s]   Add the installation prefix of "moveit_ros_task_constructor_core" to
+[0.981s]   CMAKE_PREFIX_PATH or set "moveit_ros_task_constructor_core_DIR" to a
+[0.981s]   directory containing one of the above files.  If
+[0.981s]   "moveit_ros_task_constructor_core" provides a separate development package
+[0.981s]   or SDK, be sure it has been installed.
+[0.981s] 
+[0.982s] [0m
+[0.982s] -- Configuring incomplete, errors occurred!
+[0.982s] See also "/home/aaron/ur_ws/build/moveit_control/CMakeFiles/CMakeOutput.log".
+[0.987s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.990s] Invoked command in '/home/aaron/ur_ws/build/moveit_control' returned '2': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_ros_planning_interface/lib:/home/aaron/ur_ws/install/moveit_ros_move_group/lib:/home/aaron/ur_ws/install/moveit_ros_warehouse/lib:/home/aaron/ur_ws/install/moveit_planners_ompl/lib:/home/aaron/ur_ws/install/moveit_kinematics/lib:/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_simple_controller_manager/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_control -- -j20 -l20

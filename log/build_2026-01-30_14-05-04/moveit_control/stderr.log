@@ -1,0 +1,29 @@
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > > csv_to_waypoints(const string&)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:14:28:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream file[m[K’ has initializer but incomplete type
+   14 |     std::ifstream file(path[01;31m[K)[m[K;
+      |                            [01;31m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:49:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’?
+   49 |     auto move_group_interface = [01;31m[KMoveGroupInterface[m[K(node, "manipulator");
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kmoveit::planning_interface::MoveGroupInterface[m[K
+In file included from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:80:42:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ declared here
+   80 | class MOVEIT_MOVE_GROUP_INTERFACE_EXPORT [01;36m[KMoveGroupInterface[m[K
+      |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:53:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   53 |     for (int i;[01;35m[Ki<=waypoints.size()[m[K;i++) {
+      |                [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In lambda function:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:69:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+   69 |             auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:67:60:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   67 |         auto const [success, plan] = [&move_group_interface[01;36m[K][m[K(){
+      |                                                            [01;36m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:49:10:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+   49 |     auto [01;36m[Kmove_group_interface[m[K = MoveGroupInterface(node, "manipulator");
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_pub.dir/build.make:76: CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

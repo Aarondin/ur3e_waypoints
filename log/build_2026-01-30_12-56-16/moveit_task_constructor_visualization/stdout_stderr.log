@@ -1,0 +1,38 @@
+[  1%] [34m[1mAutomatic MOC for target motion_planning_tasks_properties[0m
+[  3%] [34m[1mAutomatic MOC for target gtest[0m
+[  4%] [34m[1mAutomatic MOC for target gtest_main[0m
+[  6%] [34m[1mAutomatic MOC for target gmock_main[0m
+[  7%] [34m[1mAutomatic MOC for target moveit_task_visualization_tools[0m
+[  9%] [34m[1mAutomatic MOC for target motion_planning_tasks_utils[0m
+[ 10%] [34m[1mAutomatic MOC for target gmock[0m
+[ 10%] Built target gtest_autogen
+[ 10%] Built target gmock_main_autogen
+[ 10%] Built target gtest_main_autogen
+[ 10%] Built target motion_planning_tasks_properties_autogen
+[ 10%] Built target gmock_autogen
+[ 10%] Built target moveit_task_visualization_tools_autogen
+[ 10%] Built target motion_planning_tasks_utils_autogen
+[ 15%] Built target gtest
+[ 20%] Built target gtest_main
+[ 24%] Built target gmock_main
+[ 32%] Built target motion_planning_tasks_utils
+[ 38%] Built target gmock
+[ 40%] [32m[1mLinking CXX shared library libmotion_planning_tasks_properties.so[0m
+[ 41%] [32m[1mLinking CXX shared library libmoveit_task_visualization_tools.so[0m
+[ 43%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-merge-models[0m
+[ 43%] Built target moveit_task_constructor_visualization-test-merge-models_autogen
+[ 47%] Built target moveit_task_constructor_visualization-test-merge-models
+[ 52%] Built target motion_planning_tasks_properties
+[ 60%] Built target moveit_task_visualization_tools
+[ 61%] [34m[1mAutomatic MOC for target motion_planning_tasks_rviz_plugin[0m
+[ 61%] Built target motion_planning_tasks_rviz_plugin_autogen
+[ 63%] [32m[1mLinking CXX shared library libmotion_planning_tasks_rviz_plugin.so[0m
+[ 87%] Built target motion_planning_tasks_rviz_plugin
+[ 89%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-solution-models[0m
+[ 90%] [34m[1mAutomatic MOC for target moveit_task_constructor_visualization-test-task_model[0m
+[ 90%] Built target moveit_task_constructor_visualization-test-solution-models_autogen
+[ 90%] Built target moveit_task_constructor_visualization-test-task_model_autogen
+[ 92%] [32m[1mLinking CXX executable moveit_task_constructor_visualization-test-solution-models[0m
+[ 93%] [32m[1mLinking CXX executable moveit_task_constructor_visualization-test-task_model[0m
+[ 96%] Built target moveit_task_constructor_visualization-test-solution-models
+[100%] Built target moveit_task_constructor_visualization-test-task_model

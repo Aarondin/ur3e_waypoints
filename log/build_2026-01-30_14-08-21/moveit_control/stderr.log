@@ -1,0 +1,4 @@
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:52:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   52 |     for (int i;[01;35m[Ki<=waypoints.size()[m[K;i++) {
+      |                [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K

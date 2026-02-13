@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o[0m
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Ktf2/tf2.h: No such file or directory
+    8 | #include [01;31m[K<tf2/tf2.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_pub.dir/build.make:76: CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

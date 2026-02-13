@@ -1,0 +1,76 @@
+[0.023s] Invoking command in '/home/aaron/ur_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aaron/ur_ws/src/moveit2/moveit_kinematics -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/moveit_kinematics
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.294s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.302s] -- Found moveit_common: 2.5.9 (/home/aaron/ur_ws/install/moveit_common/share/moveit_common/cmake)
+[0.304s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.530s] [0mmoveit_kinematics: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.539s] -- Found tf2_kdl: 0.25.18 (/opt/ros/humble/share/tf2_kdl/cmake)
+[0.568s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.572s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.579s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.643s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.644s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.644s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.721s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.724s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.825s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.854s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.916s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.926s] -- Looking for pthread.h
+[1.030s] -- Looking for pthread.h - found
+[1.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.143s] -- Found Threads: TRUE  
+[1.282s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[1.288s] -- Found random_numbers: 2.0.1 (/opt/ros/humble/share/random_numbers/cmake)
+[1.301s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[1.317s] -- Found moveit_core: 2.5.9 (/home/aaron/ur_ws/install/moveit_core/share/moveit_core/cmake)
+[1.357s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.410s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.425s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.452s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.581s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.835s] -- Found moveit_ros_planning: 2.5.9 (/home/aaron/ur_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.841s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.868s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options system 
+[1.918s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.921s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[1.923s] -- Found launch_testing_ament_cmake: 1.0.13 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.925s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.954s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.960s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.960s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.960s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.960s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.052s] -- Found PythonExtra: .so  
+[2.054s] -- Found moveit_resources_fanuc_description: 2.0.7 (/home/aaron/ur_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake)
+[2.054s] -- Found moveit_resources_fanuc_moveit_config: 2.0.7 (/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake)
+[2.055s] -- Found moveit_resources_panda_description: 2.0.7 (/home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake)
+[2.056s] -- Found moveit_resources_panda_moveit_config: 2.0.7 (/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake)
+[2.059s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.075s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.086s] -- Found launch_testing_ament_cmake: 1.0.13 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.087s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.116s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.116s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.116s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.143s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.143s] -- Configured cppcheck include dirs: /home/aaron/ur_ws/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/include;/home/aaron/ur_ws/src/moveit2/moveit_kinematics/lma_kinematics_plugin/include;/home/aaron/ur_ws/src/moveit2/moveit_kinematics/srv_kinematics_plugin/include;/home/aaron/ur_ws/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include
+[2.144s] -- Configured cppcheck exclude dirs and/or files: 
+[2.144s] -- Added test 'lint_cmake' to check CMake code style
+[2.146s] -- Configuring done
+[2.238s] -- Generating done
+[2.268s] -- Build files have been written to: /home/aaron/ur_ws/build/moveit_kinematics

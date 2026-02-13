@@ -1,0 +1,6 @@
+Invoking command in '/home/aaron/ur_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aaron/ur_ws/src/rosparam_shortcuts -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/rosparam_shortcuts
+Invoked command in '/home/aaron/ur_ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aaron/ur_ws/src/rosparam_shortcuts -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/rosparam_shortcuts
+Invoking command in '/home/aaron/ur_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaron/ur_ws/build/rosparam_shortcuts -- -j20 -l20
+Invoked command in '/home/aaron/ur_ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaron/ur_ws/build/rosparam_shortcuts -- -j20 -l20
+Invoking command in '/home/aaron/ur_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaron/ur_ws/build/rosparam_shortcuts
+Invoked command in '/home/aaron/ur_ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaron/ur_ws/build/rosparam_shortcuts

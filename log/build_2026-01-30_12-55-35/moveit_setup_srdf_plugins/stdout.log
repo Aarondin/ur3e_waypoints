@@ -1,0 +1,6 @@
+[  4%] Built target gtest_main
+[  8%] Built target gtest
+[ 10%] [32m[1mLinking CXX shared library libmoveit_setup_srdf_plugins.so[0m
+[ 95%] Built target moveit_setup_srdf_plugins
+[ 97%] [32m[1mLinking CXX executable test_srdf[0m
+[100%] Built target test_srdf

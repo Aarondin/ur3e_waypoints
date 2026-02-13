@@ -1,0 +1,2 @@
+/home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages/waypoint_pub/pose_control.py:50: SyntaxWarning: 'ellipsis' object is not callable; perhaps you missed a comma?
+  cmdmsg = ...()

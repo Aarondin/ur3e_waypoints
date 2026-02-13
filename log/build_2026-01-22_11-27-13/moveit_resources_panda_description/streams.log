@@ -1,0 +1,64 @@
+[0.035s] Invoking command in '/home/aaron/ur_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/waypoint_pub:/home/aaron/ur_ws/install/Open_control:/opt/ros/humble /usr/bin/cmake /home/aaron/ur_ws/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/moveit_resources_panda_description
+[0.389s] -- The C compiler identification is GNU 11.4.0
+[0.390s] -- The CXX compiler identification is GNU 11.4.0
+[0.390s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.391s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.391s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.391s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.391s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.391s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.508s] -- Configuring done
+[0.511s] -- Generating done
+[0.513s] -- Build files have been written to: /home/aaron/ur_ws/build/moveit_resources_panda_description
+[0.578s] Invoked command in '/home/aaron/ur_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/waypoint_pub:/home/aaron/ur_ws/install/Open_control:/opt/ros/humble /usr/bin/cmake /home/aaron/ur_ws/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/moveit_resources_panda_description
+[0.580s] Invoking command in '/home/aaron/ur_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/waypoint_pub:/home/aaron/ur_ws/install/Open_control:/opt/ros/humble /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_resources_panda_description -- -j20 -l20
+[0.605s] Invoked command in '/home/aaron/ur_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/waypoint_pub:/home/aaron/ur_ws/install/Open_control:/opt/ros/humble /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_resources_panda_description -- -j20 -l20
+[0.606s] Invoking command in '/home/aaron/ur_ws/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/waypoint_pub:/home/aaron/ur_ws/install/Open_control:/opt/ros/humble /usr/bin/cmake --install /home/aaron/ur_ws/build/moveit_resources_panda_description
+[0.611s] -- Install configuration: ""
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[0.612s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[0.613s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[0.613s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[0.613s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[0.614s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[0.615s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[0.615s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[0.616s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[0.616s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[0.617s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[0.617s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[0.618s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[0.619s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[0.619s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[0.619s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[0.620s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[0.621s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[0.621s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[0.621s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[0.621s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[0.622s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[0.622s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[0.622s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[0.622s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[0.622s] -- Installing: /home/aaron/ur_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[0.623s] Invoked command in '/home/aaron/ur_ws/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/waypoint_pub:/home/aaron/ur_ws/install/Open_control:/opt/ros/humble /usr/bin/cmake --install /home/aaron/ur_ws/build/moveit_resources_panda_description

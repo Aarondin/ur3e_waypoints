@@ -1,0 +1,9 @@
+[ 11%] Built target pick_place_demo_parameters
+[ 22%] Built target ik_clearance_cost_parameters
+[ 33%] Built target moveit_task_constructor_demo_alternative_path_costs
+[ 44%] Built target moveit_task_constructor_demo_fallbacks_move_to
+[ 55%] Built target moveit_task_constructor_demo_cartesian
+[ 66%] Built target moveit_task_constructor_demo_modular
+[ 77%] Built target moveit_task_constructor_demo_pick_place_task
+[ 88%] Built target moveit_task_constructor_demo_ik_clearance_cost
+[100%] Built target moveit_task_constructor_demo_pick_place_demo

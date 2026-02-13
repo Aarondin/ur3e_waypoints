@@ -1,0 +1,7 @@
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/Pose.hpp: No such file or directory
+    6 | #include [01;31m[K<geometry_msgs/msg/Pose.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_pub.dir/build.make:76: CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

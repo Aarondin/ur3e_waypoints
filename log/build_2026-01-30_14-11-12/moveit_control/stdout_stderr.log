@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o[0m
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:58:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_euler[m[K’ was not declared in this scope
+   58 |         auto target_pose = [&quat, &[01;31m[Kpose_euler[m[K](){geometry_msgs::msg::Pose msg;
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In lambda function:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:63:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoint[m[K’ is not captured
+   63 |             msg.position.x = std::stod([01;31m[Kwaypoint[m[K[0]);
+      |                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:58:47:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   58 |         auto target_pose = [&quat, &pose_euler[01;36m[K][m[K(){geometry_msgs::msg::Pose msg;
+      |                                               [01;36m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:52:22:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >& waypoint[m[K’ declared here
+   52 |     for (const auto &[01;36m[Kwaypoint[m[K : waypoints) {
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:64:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoint[m[K’ is not captured
+   64 |             msg.position.y = std::stod([01;31m[Kwaypoint[m[K[1]);
+      |                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:58:47:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   58 |         auto target_pose = [&quat, &pose_euler[01;36m[K][m[K(){geometry_msgs::msg::Pose msg;
+      |                                               [01;36m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:52:22:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >& waypoint[m[K’ declared here
+   52 |     for (const auto &[01;36m[Kwaypoint[m[K : waypoints) {
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:65:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoint[m[K’ is not captured
+   65 |             msg.position.z = std::stod([01;31m[Kwaypoint[m[K[2]);
+      |                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:58:47:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   58 |         auto target_pose = [&quat, &pose_euler[01;36m[K][m[K(){geometry_msgs::msg::Pose msg;
+      |                                               [01;36m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:52:22:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >& waypoint[m[K’ declared here
+   52 |     for (const auto &[01;36m[Kwaypoint[m[K : waypoints) {
+      |                      [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_pub.dir/build.make:76: CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

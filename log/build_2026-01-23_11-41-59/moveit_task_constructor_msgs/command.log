@@ -1,0 +1,1 @@
+Invoking command in '/home/aaron/ur_ws/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_task_constructor_msgs -- -j20 -l20

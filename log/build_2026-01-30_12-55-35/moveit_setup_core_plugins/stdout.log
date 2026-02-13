@@ -1,0 +1,4 @@
+[  6%] [34m[1mAutomatic MOC for target moveit_setup_core_plugins[0m
+[  6%] Built target moveit_setup_core_plugins_autogen
+[ 13%] [32m[1mLinking CXX shared library libmoveit_setup_core_plugins.so[0m
+[100%] Built target moveit_setup_core_plugins

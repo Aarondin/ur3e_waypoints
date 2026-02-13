@@ -1,0 +1,28 @@
+[  5%] [32mBuilding CXX object lazy_free_space_updater/CMakeFiles/moveit_lazy_free_space_updater.dir/src/lazy_free_space_updater.cpp.o[0m
+[ 10%] [32mBuilding CXX object semantic_world/CMakeFiles/moveit_semantic_world.dir/src/semantic_world.cpp.o[0m
+[ 15%] [32mBuilding CXX object point_containment_filter/CMakeFiles/moveit_point_containment_filter.dir/src/shape_mask.cpp.o[0m
+[ 20%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/mesh_filter_base.cpp.o[0m
+[ 25%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/sensor_model.cpp.o[0m
+[ 30%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/stereo_camera_model.cpp.o[0m
+[ 35%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/gl_mesh.cpp.o[0m
+[ 40%] [32mBuilding CXX object mesh_filter/CMakeFiles/moveit_mesh_filter.dir/src/gl_renderer.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libmoveit_lazy_free_space_updater.so[0m
+[ 50%] [32m[1mLinking CXX shared library libmoveit_point_containment_filter.so[0m
+[ 50%] Built target moveit_point_containment_filter
+[ 55%] [32mBuilding CXX object pointcloud_octomap_updater/CMakeFiles/moveit_pointcloud_octomap_updater_core.dir/src/pointcloud_octomap_updater.cpp.o[0m
+[ 55%] Built target moveit_lazy_free_space_updater
+[ 60%] [32m[1mLinking CXX shared library libmoveit_mesh_filter.so[0m
+[ 60%] Built target moveit_mesh_filter
+[ 65%] [32mBuilding CXX object depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater_core.dir/src/depth_image_octomap_updater.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libmoveit_depth_image_octomap_updater_core.so[0m
+[ 70%] Built target moveit_depth_image_octomap_updater_core
+[ 75%] [32m[1mLinking CXX shared library libmoveit_pointcloud_octomap_updater_core.so[0m
+[ 75%] Built target moveit_pointcloud_octomap_updater_core
+[ 80%] [32mBuilding CXX object depth_image_octomap_updater/CMakeFiles/moveit_depth_image_octomap_updater.dir/src/updater_plugin.cpp.o[0m
+[ 85%] [32mBuilding CXX object pointcloud_octomap_updater/CMakeFiles/moveit_pointcloud_octomap_updater.dir/src/plugin_init.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library libmoveit_depth_image_octomap_updater.so[0m
+[ 90%] Built target moveit_depth_image_octomap_updater
+[ 95%] [32m[1mLinking CXX shared library libmoveit_semantic_world.so[0m
+[100%] [32m[1mLinking CXX shared library libmoveit_pointcloud_octomap_updater.so[0m
+[100%] Built target moveit_pointcloud_octomap_updater
+[100%] Built target moveit_semantic_world

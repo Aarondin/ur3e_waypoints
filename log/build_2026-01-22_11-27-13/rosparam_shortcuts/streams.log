@@ -1,0 +1,57 @@
+[0.362s] Invoking command in '/home/aaron/ur_ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/waypoint_pub:/home/aaron/ur_ws/install/Open_control:/opt/ros/humble /usr/bin/cmake /home/aaron/ur_ws/src/rosparam_shortcuts -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/rosparam_shortcuts
+[0.403s] -- The C compiler identification is GNU 11.4.0
+[0.441s] -- The CXX compiler identification is GNU 11.4.0
+[0.449s] -- Detecting C compiler ABI info
+[0.515s] -- Detecting C compiler ABI info - done
+[0.520s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.520s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.523s] -- Detecting CXX compiler ABI info
+[0.603s] -- Detecting CXX compiler ABI info - done
+[0.622s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.623s] -- Detecting CXX compile features
+[0.623s] -- Detecting CXX compile features - done
+[0.628s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.736s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.799s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.804s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.806s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.833s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.837s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.843s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.891s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.919s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.922s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.993s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.018s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.080s] -- Looking for pthread.h
+[1.138s] -- Looking for pthread.h - found
+[1.138s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.203s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.204s] -- Found Threads: TRUE  
+[1.231s] -- Found tf2_eigen: 0.25.18 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.311s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.312s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.318s] [31mCMake Error at CMakeLists.txt:97 (find_package):
+[1.318s]   By not providing "Findros_testing.cmake" in CMAKE_MODULE_PATH this project
+[1.318s]   has asked CMake to find a package configuration file provided by
+[1.319s]   "ros_testing", but CMake did not find one.
+[1.319s] 
+[1.319s]   Could not find a package configuration file provided by "ros_testing" with
+[1.319s]   any of the following names:
+[1.319s] 
+[1.319s]     ros_testingConfig.cmake
+[1.319s]     ros_testing-config.cmake
+[1.319s] 
+[1.319s]   Add the installation prefix of "ros_testing" to CMAKE_PREFIX_PATH or set
+[1.319s]   "ros_testing_DIR" to a directory containing one of the above files.  If
+[1.319s]   "ros_testing" provides a separate development package or SDK, be sure it
+[1.319s]   has been installed.
+[1.319s] 
+[1.319s] [0m
+[1.319s] -- Configuring incomplete, errors occurred!
+[1.319s] See also "/home/aaron/ur_ws/build/rosparam_shortcuts/CMakeFiles/CMakeOutput.log".
+[1.326s] Invoked command in '/home/aaron/ur_ws/build/rosparam_shortcuts' returned '1': CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/waypoint_pub:/home/aaron/ur_ws/install/Open_control:/opt/ros/humble /usr/bin/cmake /home/aaron/ur_ws/src/rosparam_shortcuts -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/rosparam_shortcuts

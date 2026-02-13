@@ -1,0 +1,18 @@
+[0mmoveit_task_constructor_core: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[31mCMake Error at CMakeLists.txt:15 (find_package):
+  By not providing "Findpy_binding_tools.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "py_binding_tools", but CMake did not find one.
+
+  Could not find a package configuration file provided by "py_binding_tools"
+  with any of the following names:
+
+    py_binding_toolsConfig.cmake
+    py_binding_tools-config.cmake
+
+  Add the installation prefix of "py_binding_tools" to CMAKE_PREFIX_PATH or
+  set "py_binding_tools_DIR" to a directory containing one of the above
+  files.  If "py_binding_tools" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

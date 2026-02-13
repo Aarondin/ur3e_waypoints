@@ -1,0 +1,206 @@
+[0.059s] Invoking command in '/home/aaron/ur_ws/build/moveit_control': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_task_constructor_core:/home/aaron/ur_ws/install/moveit_planners:/home/aaron/ur_ws/install/pilz_industrial_motion_planner:/home/aaron/ur_ws/install/moveit_resources_prbt_pg70_support:/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_resources_prbt_moveit_config:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_planners_chomp:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aaron/ur_ws/install/chomp_motion_planner:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/rviz_marker_tools:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_task_constructor_msgs:/home/aaron/ur_ws/install/moveit_resources_prbt_support:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/aaron/ur_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_task_constructor_core:/home/aaron/ur_ws/install/moveit_planners:/home/aaron/ur_ws/install/pilz_industrial_motion_planner:/home/aaron/ur_ws/install/moveit_resources_prbt_pg70_support:/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_resources_prbt_moveit_config:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_planners_chomp:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aaron/ur_ws/install/chomp_motion_planner:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/rviz_marker_tools:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_task_constructor_msgs:/home/aaron/ur_ws/install/moveit_resources_prbt_support:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_task_constructor_core/lib:/home/aaron/ur_ws/install/pilz_industrial_motion_planner/lib:/home/aaron/ur_ws/install/moveit_ros_planning_interface/lib:/home/aaron/ur_ws/install/moveit_ros_move_group/lib:/home/aaron/ur_ws/install/moveit_ros_warehouse/lib:/home/aaron/ur_ws/install/moveit_planners_ompl/lib:/home/aaron/ur_ws/install/moveit_kinematics/lib:/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_planners_chomp/lib:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/aaron/ur_ws/install/moveit_simple_controller_manager/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/aaron/ur_ws/install/chomp_motion_planner/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/rviz_marker_tools/lib:/home/aaron/ur_ws/install/srdfdom/lib:/home/aaron/ur_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_control -- -j20 -l20
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target moveit_pub[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o[0m
+[2.990s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > > csv_to_waypoints(const string&)[m[K’:
+[2.990s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:14:19:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kstd::ifstream file[m[K’ shadows a parameter
+[2.990s]    14 |     std::ifstream [01;31m[Kfile[m[K(file);
+[2.990s]       |                   [01;31m[K^~~~[m[K
+[2.990s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:12:75:[m[K [01;36m[Knote: [m[K‘[01m[Kconst string& file[m[K’ previously declared here
+[2.990s]    12 | std::vector<std::vector<std::string>> csv_to_waypoints([01;36m[Kconst std::string& file[m[K) {
+[2.990s]       |                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.991s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:14:28:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream file[m[K’ has initializer but incomplete type
+[2.991s]    14 |     std::ifstream file(file[01;31m[K)[m[K;
+[2.991s]       |                            [01;31m[K^[m[K
+[2.991s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:12:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.991s]    12 | std::vector<std::vector<std::string>> csv_to_waypoints([01;35m[Kconst std::string& file[m[K) {
+[2.991s]       |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.992s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.992s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:50:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.992s]    50 |     for (int i;[01;35m[Ki<=waypoints.size()[m[K;i++) {
+[2.992s]       |                [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[2.992s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:55:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kmsg[m[K’
+[2.992s]    55 |         auto target_pose = {geometry_msgs::msg::Pose [01;31m[Kmsg[m[K;
+[2.992s]       |                                                      [01;31m[K^~~[m[K
+[2.992s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:55:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kmsg[m[K’
+[2.992s]    55 |         auto target_pose = [32m[K{[m[Kgeometry_msgs::msg::Pose [01;31m[Kmsg[m[K;
+[2.993s]       |                            [32m[K~[m[K                         [01;31m[K^~~[m[K
+[2.993s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:55:54:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kstd::initializer_list<auto>[m[K’ from ‘[01m[K{<expression error>}[m[K’
+[2.993s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:55:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+[2.993s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.993s]    56 |             [01;31m[Kmsg[m[K.orientation.w = quat.getW();
+[2.993s]       |             [01;31m[K^~~[m[K
+[2.993s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:56:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.993s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[2.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33[m[K,
+[2.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.994s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:4[m[K:
+[2.994s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.994s]    28 | namespace [01;36m[Kmsg[m[K
+[2.994s]       |           [01;36m[K^~~[m[K
+[2.995s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.995s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:4[m[K:
+[2.996s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.996s]    28 | namespace [01;36m[Kmsg[m[K
+[2.996s]       |           [01;36m[K^~~[m[K
+[2.996s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:24[m[K,
+[2.996s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.996s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.996s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.997s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.997s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:4[m[K:
+[2.997s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.997s]    28 | namespace [01;36m[Kmsg[m[K
+[2.997s]       |           [01;36m[K^~~[m[K
+[2.997s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:21[m[K,
+[2.997s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[2.997s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:6[m[K:
+[2.997s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[2.997s]    28 | namespace [01;36m[Kmsg[m[K
+[2.998s]       |           [01;36m[K^~~[m[K
+[2.998s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:7[m[K,
+[2.998s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44[m[K,
+[2.998s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40[m[K,
+[2.998s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+[2.998s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40[m[K,
+[2.998s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[2.998s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[2.998s] [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmoveit_msgs::msg[m[K’
+[2.998s]    28 | namespace [01;36m[Kmsg[m[K
+[2.998s]       |           [01;36m[K^~~[m[K
+[2.998s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:21[m[K,
+[2.998s]                  from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+[2.999s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/transforms/transforms.h:39[m[K,
+[2.999s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_state/attached_body.h:40[m[K,
+[2.999s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:41[m[K,
+[2.999s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[2.999s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[2.999s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[2.999s]    32 | namespace [01;36m[Kmsg[m[K
+[2.999s]       |           [01;36m[K^~~[m[K
+[2.999s] In file included from [01m[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp:23[m[K,
+[2.999s]                  from [01m[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp:7[m[K,
+[2.999s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_state/attached_body.h:43[m[K,
+[2.999s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:41[m[K,
+[2.999s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[3.000s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[3.000s] [01m[K/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktrajectory_msgs::msg[m[K’
+[3.000s]    32 | namespace [01;36m[Kmsg[m[K
+[3.000s]       |           [01;36m[K^~~[m[K
+[3.000s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:7[m[K,
+[3.000s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:43[m[K,
+[3.000s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[3.000s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[3.000s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[3.000s]    32 | namespace [01;36m[Kmsg[m[K
+[3.000s]       |           [01;36m[K^~~[m[K
+[3.000s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:36[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:21[m[K,
+[3.000s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:7[m[K,
+[3.001s]                  from [01m[K/home/aaron/ur_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:44[m[K,
+[3.001s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[3.001s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[3.001s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kvisualization_msgs::msg[m[K’
+[3.001s]    28 | namespace [01;36m[Kmsg[m[K
+[3.001s]       |           [01;36m[K^~~[m[K
+[3.001s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp:29[m[K,
+[3.001s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp:21[m[K,
+[3.001s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:25[m[K,
+[3.001s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7[m[K,
+[3.001s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:44[m[K,
+[3.001s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[3.002s] [01m[K/opt/ros/humble/include/object_recognition_msgs/object_recognition_msgs/msg/detail/object_type__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kobject_recognition_msgs::msg[m[K’
+[3.002s]    28 | namespace [01;36m[Kmsg[m[K
+[3.002s]       |           [01;36m[K^~~[m[K
+[3.002s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp:31[m[K,
+[3.002s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp:21[m[K,
+[3.002s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:25[m[K,
+[3.002s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7[m[K,
+[3.002s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:44[m[K,
+[3.002s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[3.002s] [01m[K/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kshape_msgs::msg[m[K’
+[3.002s]    32 | namespace [01;36m[Kmsg[m[K
+[3.002s]       |           [01;36m[K^~~[m[K
+[3.002s] In file included from [01m[K/opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap_with_pose__struct.hpp:25[m[K,
+[3.002s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__struct.hpp:23[m[K,
+[3.003s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp:33[m[K,
+[3.003s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_options__struct.hpp:21[m[K,
+[3.003s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:23[m[K,
+[3.003s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7[m[K,
+[3.003s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52[m[K,
+[3.003s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[3.003s] [01m[K/opt/ros/humble/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Koctomap_msgs::msg[m[K’
+[3.003s]    32 | namespace [01;36m[Kmsg[m[K
+[3.003s]       |           [01;36m[K^~~[m[K
+[3.003s] In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:440[m[K,
+[3.003s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7[m[K,
+[3.003s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52[m[K,
+[3.004s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[3.004s] [01m[K/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kunique_identifier_msgs::msg[m[K’
+[3.004s]    28 | namespace [01;36m[Kmsg[m[K
+[3.004s]       |           [01;36m[K^~~[m[K
+[3.004s] In file included from [01m[K/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp:21[m[K,
+[3.004s]                  from [01m[K/opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp:7[m[K,
+[3.004s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/detail/move_group__struct.hpp:1100[m[K,
+[3.004s]                  from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/action/move_group.hpp:7[m[K,
+[3.004s]                  from [01m[K/home/aaron/ur_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:52[m[K,
+[3.004s]                  from [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:9[m[K:
+[3.004s] [01m[K/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kaction_msgs::msg[m[K’
+[3.004s]    34 | namespace [01;36m[Kmsg[m[K
+[3.004s]       |           [01;36m[K^~~[m[K
+[3.004s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:60:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[3.005s]    60 |         return msg;}([01;31m[K)[m[K;
+[3.005s]       |                      [01;31m[K^[m[K
+[3.005s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+[3.005s]    61 |         [01;31m[Kmove_group_interface[m[K.setPoseTarget(target_pose);
+[3.005s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.005s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:61:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+[3.006s]    61 |         move_group_interface.setPoseTarget([01;31m[Ktarget_pose[m[K);
+[3.006s]       |                                            [01;31m[K^~~~~~~~~~~[m[K
+[3.006s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In lambda function:
+[3.006s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:66:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+[3.006s]    66 |             auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+[3.006s]       |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.006s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:64:60:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[3.006s]    64 |         auto const [success, plan] = [&move_group_interface[01;36m[K][m[K{
+[3.006s]       |                                                            [01;36m[K^[m[K
+[3.006s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:61:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+[3.006s]    61 |         [01;36m[Kmove_group_interface[m[K.setPoseTarget(target_pose);
+[3.006s]       |         [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.007s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K At global scope:
+[3.007s] [01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:77:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.007s]    77 | [01;31m[K}[m[K
+[3.007s]       | [01;31m[K^[m[K
+[4.568s] gmake[2]: *** [CMakeFiles/moveit_pub.dir/build.make:76: CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o] Error 1
+[4.569s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_pub.dir/all] Error 2
+[4.569s] gmake: *** [Makefile:146: all] Error 2
+[4.572s] Invoked command in '/home/aaron/ur_ws/build/moveit_control' returned '2': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_task_constructor_core:/home/aaron/ur_ws/install/moveit_planners:/home/aaron/ur_ws/install/pilz_industrial_motion_planner:/home/aaron/ur_ws/install/moveit_resources_prbt_pg70_support:/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_resources_prbt_moveit_config:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_planners_chomp:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aaron/ur_ws/install/chomp_motion_planner:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/rviz_marker_tools:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_task_constructor_msgs:/home/aaron/ur_ws/install/moveit_resources_prbt_support:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_MODULE_PATH=/home/aaron/ur_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_task_constructor_core:/home/aaron/ur_ws/install/moveit_planners:/home/aaron/ur_ws/install/pilz_industrial_motion_planner:/home/aaron/ur_ws/install/moveit_resources_prbt_pg70_support:/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_resources_prbt_moveit_config:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_planners_chomp:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aaron/ur_ws/install/chomp_motion_planner:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/rviz_marker_tools:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_task_constructor_msgs:/home/aaron/ur_ws/install/moveit_resources_prbt_support:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_task_constructor_core/lib:/home/aaron/ur_ws/install/pilz_industrial_motion_planner/lib:/home/aaron/ur_ws/install/moveit_ros_planning_interface/lib:/home/aaron/ur_ws/install/moveit_ros_move_group/lib:/home/aaron/ur_ws/install/moveit_ros_warehouse/lib:/home/aaron/ur_ws/install/moveit_planners_ompl/lib:/home/aaron/ur_ws/install/moveit_kinematics/lib:/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_planners_chomp/lib:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/aaron/ur_ws/install/moveit_simple_controller_manager/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/aaron/ur_ws/install/chomp_motion_planner/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/rviz_marker_tools/lib:/home/aaron/ur_ws/install/srdfdom/lib:/home/aaron/ur_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_control -- -j20 -l20

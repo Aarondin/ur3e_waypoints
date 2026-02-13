@@ -1,0 +1,21 @@
+[0.839s] Invoking command in '/home/aaron/ur_ws/src/waypoint_pub': PYTHONPATH=/home/aaron/ur_ws/build/waypoint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_pub build --build-base /home/aaron/ur_ws/build/waypoint_pub/build install --record /home/aaron/ur_ws/build/waypoint_pub/install.log --single-version-externally-managed install_data
+[1.020s] running egg_info
+[1.021s] writing ../../build/waypoint_pub/waypoint_pub.egg-info/PKG-INFO
+[1.022s] writing dependency_links to ../../build/waypoint_pub/waypoint_pub.egg-info/dependency_links.txt
+[1.022s] writing entry points to ../../build/waypoint_pub/waypoint_pub.egg-info/entry_points.txt
+[1.022s] writing requirements to ../../build/waypoint_pub/waypoint_pub.egg-info/requires.txt
+[1.022s] writing top-level names to ../../build/waypoint_pub/waypoint_pub.egg-info/top_level.txt
+[1.023s] reading manifest file '../../build/waypoint_pub/waypoint_pub.egg-info/SOURCES.txt'
+[1.023s] adding license file 'LICENSE'
+[1.024s] writing manifest file '../../build/waypoint_pub/waypoint_pub.egg-info/SOURCES.txt'
+[1.024s] running build
+[1.024s] running build_py
+[1.024s] running install
+[1.024s] running install_lib
+[1.024s] running install_data
+[1.024s] running install_egg_info
+[1.025s] removing '/home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages/waypoint_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.026s] Copying ../../build/waypoint_pub/waypoint_pub.egg-info to /home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages/waypoint_pub-0.0.0-py3.10.egg-info
+[1.026s] running install_scripts
+[1.041s] writing list of installed files to '/home/aaron/ur_ws/build/waypoint_pub/install.log'
+[1.211s] Invoked command in '/home/aaron/ur_ws/src/waypoint_pub' returned '0': PYTHONPATH=/home/aaron/ur_ws/build/waypoint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/ur_ws/install/waypoint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_pub build --build-base /home/aaron/ur_ws/build/waypoint_pub/build install --record /home/aaron/ur_ws/build/waypoint_pub/install.log --single-version-externally-managed install_data

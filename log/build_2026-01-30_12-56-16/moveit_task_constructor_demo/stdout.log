@@ -1,0 +1,16 @@
+[ 11%] Built target pick_place_demo_parameters
+[ 22%] Built target ik_clearance_cost_parameters
+[ 27%] [32m[1mLinking CXX executable cartesian[0m
+[ 33%] [32m[1mLinking CXX executable fallbacks_move_to[0m
+[ 38%] [32m[1mLinking CXX executable modular[0m
+[ 44%] [32m[1mLinking CXX executable alternative_path_costs[0m
+[ 50%] [32m[1mLinking CXX shared library libmoveit_task_constructor_demo_pick_place_task.so[0m
+[ 55%] [32m[1mLinking CXX executable ik_clearance_cost[0m
+[ 61%] Built target moveit_task_constructor_demo_pick_place_task
+[ 66%] [32m[1mLinking CXX executable pick_place_demo[0m
+[ 72%] Built target moveit_task_constructor_demo_modular
+[ 77%] Built target moveit_task_constructor_demo_fallbacks_move_to
+[ 83%] Built target moveit_task_constructor_demo_ik_clearance_cost
+[ 88%] Built target moveit_task_constructor_demo_cartesian
+[ 94%] Built target moveit_task_constructor_demo_alternative_path_costs
+[100%] Built target moveit_task_constructor_demo_pick_place_demo

@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o[0m
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > > csv_to_waypoints(const string&)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:14:19:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kstd::ifstream file[m[K’ shadows a parameter
+   14 |     std::ifstream [01;31m[Kfile[m[K(file);
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:12:75:[m[K [01;36m[Knote: [m[K‘[01m[Kconst string& file[m[K’ previously declared here
+   12 | std::vector<std::vector<std::string>> csv_to_waypoints([01;36m[Kconst std::string& file[m[K) {
+      |                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:14:28:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream file[m[K’ has initializer but incomplete type
+   14 |     std::ifstream file(file[01;31m[K)[m[K;
+      |                            [01;31m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:12:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfile[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 | std::vector<std::vector<std::string>> csv_to_waypoints([01;35m[Kconst std::string& file[m[K) {
+      |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:50:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   50 |     for (int i;[01;35m[Ki<=waypoints.size()[m[K;i++) {
+      |                [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In lambda function:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:57:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_euler[m[K’ is not captured
+   57 |             msg.position.x = std::stod([01;31m[Kpose_euler[m[K[0]);
+      |                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:55:34:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   55 |         auto target_pose = [&quat[01;36m[K][m[K{geometry_msgs::msg::Pose msg;
+      |                                  [01;36m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:51:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > pose_euler[m[K’ declared here
+   51 |         std::vector<std::string> [01;36m[Kpose_euler[m[K = waypoints[i];
+      |                                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:58:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_euler[m[K’ is not captured
+   58 |             msg.position.y = std::stod([01;31m[Kpose_euler[m[K[1]);
+      |                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:55:34:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   55 |         auto target_pose = [&quat[01;36m[K][m[K{geometry_msgs::msg::Pose msg;
+      |                                  [01;36m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:51:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > pose_euler[m[K’ declared here
+   51 |         std::vector<std::string> [01;36m[Kpose_euler[m[K = waypoints[i];
+      |                                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:59:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_euler[m[K’ is not captured
+   59 |             msg.position.z = std::stod([01;31m[Kpose_euler[m[K[2]);
+      |                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:55:34:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   55 |         auto target_pose = [&quat[01;36m[K][m[K{geometry_msgs::msg::Pose msg;
+      |                                  [01;36m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:51:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > pose_euler[m[K’ declared here
+   51 |         std::vector<std::string> [01;36m[Kpose_euler[m[K = waypoints[i];
+      |                                  [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+   61 |         [01;31m[Kmove_group_interface[m[K.setPoseTarget(target_pose);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:[m[K In lambda function:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:66:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+   66 |             auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:64:60:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   64 |         auto const [success, plan] = [&move_group_interface[01;36m[K][m[K{
+      |                                                            [01;36m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/moveit_waypoints.cpp:61:9:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+   61 |         [01;36m[Kmove_group_interface[m[K.setPoseTarget(target_pose);
+      |         [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_pub.dir/build.make:76: CMakeFiles/moveit_pub.dir/src/moveit_waypoints.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/moveit_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

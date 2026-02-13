@@ -1,0 +1,37 @@
+[0.527s] Invoking command in '/home/aaron/ur_ws/src/Open_control': PYTHONPATH=/home/aaron/ur_ws/build/Open_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Open_control build --build-base /home/aaron/ur_ws/build/Open_control/build install --record /home/aaron/ur_ws/build/Open_control/install.log --single-version-externally-managed install_data
+[0.675s] running egg_info
+[0.675s] creating ../../build/Open_control/Open_control.egg-info
+[0.678s] writing ../../build/Open_control/Open_control.egg-info/PKG-INFO
+[0.679s] writing dependency_links to ../../build/Open_control/Open_control.egg-info/dependency_links.txt
+[0.679s] writing entry points to ../../build/Open_control/Open_control.egg-info/entry_points.txt
+[0.679s] writing requirements to ../../build/Open_control/Open_control.egg-info/requires.txt
+[0.679s] writing top-level names to ../../build/Open_control/Open_control.egg-info/top_level.txt
+[0.679s] writing manifest file '../../build/Open_control/Open_control.egg-info/SOURCES.txt'
+[0.680s] reading manifest file '../../build/Open_control/Open_control.egg-info/SOURCES.txt'
+[0.680s] adding license file 'LICENSE'
+[0.680s] writing manifest file '../../build/Open_control/Open_control.egg-info/SOURCES.txt'
+[0.680s] running build
+[0.680s] running build_py
+[0.680s] creating /home/aaron/ur_ws/build/Open_control/build
+[0.680s] creating /home/aaron/ur_ws/build/Open_control/build/lib
+[0.681s] creating /home/aaron/ur_ws/build/Open_control/build/lib/Open_control
+[0.681s] copying Open_control/__init__.py -> /home/aaron/ur_ws/build/Open_control/build/lib/Open_control
+[0.681s] copying Open_control/position_command.py -> /home/aaron/ur_ws/build/Open_control/build/lib/Open_control
+[0.681s] running install
+[0.681s] running install_lib
+[0.681s] creating /home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages/Open_control
+[0.681s] copying /home/aaron/ur_ws/build/Open_control/build/lib/Open_control/__init__.py -> /home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages/Open_control
+[0.681s] copying /home/aaron/ur_ws/build/Open_control/build/lib/Open_control/position_command.py -> /home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages/Open_control
+[0.682s] byte-compiling /home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages/Open_control/__init__.py to __init__.cpython-310.pyc
+[0.682s] byte-compiling /home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages/Open_control/position_command.py to position_command.cpython-310.pyc
+[0.682s] running install_data
+[0.682s] creating /home/aaron/ur_ws/install/Open_control/share/ament_index
+[0.682s] creating /home/aaron/ur_ws/install/Open_control/share/ament_index/resource_index
+[0.682s] creating /home/aaron/ur_ws/install/Open_control/share/ament_index/resource_index/packages
+[0.682s] copying resource/Open_control -> /home/aaron/ur_ws/install/Open_control/share/ament_index/resource_index/packages
+[0.682s] copying package.xml -> /home/aaron/ur_ws/install/Open_control/share/Open_control
+[0.682s] running install_egg_info
+[0.683s] Copying ../../build/Open_control/Open_control.egg-info to /home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages/Open_control-0.0.0-py3.10.egg-info
+[0.684s] running install_scripts
+[0.696s] writing list of installed files to '/home/aaron/ur_ws/build/Open_control/install.log'
+[0.710s] Invoked command in '/home/aaron/ur_ws/src/Open_control' returned '0': PYTHONPATH=/home/aaron/ur_ws/build/Open_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Open_control build --build-base /home/aaron/ur_ws/build/Open_control/build install --record /home/aaron/ur_ws/build/Open_control/install.log --single-version-externally-managed install_data

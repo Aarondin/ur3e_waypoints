@@ -1,0 +1,21 @@
+[0.836s] Invoking command in '/home/aaron/ur_ws/src/Open_control': PYTHONPATH=/home/aaron/ur_ws/build/Open_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Open_control build --build-base /home/aaron/ur_ws/build/Open_control/build install --record /home/aaron/ur_ws/build/Open_control/install.log --single-version-externally-managed install_data
+[1.000s] running egg_info
+[1.000s] writing ../../build/Open_control/Open_control.egg-info/PKG-INFO
+[1.000s] writing dependency_links to ../../build/Open_control/Open_control.egg-info/dependency_links.txt
+[1.000s] writing entry points to ../../build/Open_control/Open_control.egg-info/entry_points.txt
+[1.000s] writing requirements to ../../build/Open_control/Open_control.egg-info/requires.txt
+[1.001s] writing top-level names to ../../build/Open_control/Open_control.egg-info/top_level.txt
+[1.002s] reading manifest file '../../build/Open_control/Open_control.egg-info/SOURCES.txt'
+[1.002s] adding license file 'LICENSE'
+[1.002s] writing manifest file '../../build/Open_control/Open_control.egg-info/SOURCES.txt'
+[1.002s] running build
+[1.002s] running build_py
+[1.002s] running install
+[1.003s] running install_lib
+[1.003s] running install_data
+[1.003s] running install_egg_info
+[1.005s] removing '/home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages/Open_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.005s] Copying ../../build/Open_control/Open_control.egg-info to /home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages/Open_control-0.0.0-py3.10.egg-info
+[1.005s] running install_scripts
+[1.020s] writing list of installed files to '/home/aaron/ur_ws/build/Open_control/install.log'
+[1.039s] Invoked command in '/home/aaron/ur_ws/src/Open_control' returned '0': PYTHONPATH=/home/aaron/ur_ws/build/Open_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaron/ur_ws/install/Open_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Open_control build --build-base /home/aaron/ur_ws/build/Open_control/build install --record /home/aaron/ur_ws/build/Open_control/install.log --single-version-externally-managed install_data

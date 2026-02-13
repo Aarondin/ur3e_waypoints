@@ -1,0 +1,54 @@
+[0.056s] Invoking command in '/home/aaron/ur_ws/build/moveit_task_constructor_core': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_planners:/home/aaron/ur_ws/install/pilz_industrial_motion_planner:/home/aaron/ur_ws/install/moveit_resources_prbt_pg70_support:/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_resources_prbt_moveit_config:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_planners_chomp:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aaron/ur_ws/install/chomp_motion_planner:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/rviz_marker_tools:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_task_constructor_msgs:/home/aaron/ur_ws/install/moveit_resources_prbt_support:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_planners:/home/aaron/ur_ws/install/pilz_industrial_motion_planner:/home/aaron/ur_ws/install/moveit_resources_prbt_pg70_support:/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_resources_prbt_moveit_config:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_planners_chomp:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aaron/ur_ws/install/chomp_motion_planner:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/rviz_marker_tools:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_task_constructor_msgs:/home/aaron/ur_ws/install/moveit_resources_prbt_support:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/pilz_industrial_motion_planner/lib:/home/aaron/ur_ws/install/moveit_ros_planning_interface/lib:/home/aaron/ur_ws/install/moveit_ros_move_group/lib:/home/aaron/ur_ws/install/moveit_ros_warehouse/lib:/home/aaron/ur_ws/install/moveit_planners_ompl/lib:/home/aaron/ur_ws/install/moveit_kinematics/lib:/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_planners_chomp/lib:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/aaron/ur_ws/install/moveit_simple_controller_manager/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/aaron/ur_ws/install/chomp_motion_planner/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/rviz_marker_tools/lib:/home/aaron/ur_ws/install/srdfdom/lib:/home/aaron/ur_ws/install/moveit_task_constructor_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_task_constructor_core -- -j20 -l20
+[0.104s] [  2%] Built target gmock_main
+[0.104s] [  5%] Built target gmock
+[0.108s] [  8%] Built target gtest_main
+[0.110s] [ 10%] Built target gtest
+[0.114s] [ 10%] Built target ament_cmake_python_copy_moveit
+[0.157s] [ 11%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core.so[0m
+[0.278s] running egg_info
+[0.278s] writing moveit.egg-info/PKG-INFO
+[0.279s] writing dependency_links to moveit.egg-info/dependency_links.txt
+[0.279s] writing top-level names to moveit.egg-info/top_level.txt
+[0.282s] reading manifest file 'moveit.egg-info/SOURCES.txt'
+[0.282s] writing manifest file 'moveit.egg-info/SOURCES.txt'
+[0.303s] [ 11%] Built target ament_cmake_python_build_moveit_egg
+[0.434s] [ 29%] Built target moveit_task_constructor_core
+[0.481s] [ 30%] [32m[1mLinking CXX shared library libgtest_utils.so[0m
+[0.494s] [ 31%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core_stages.so[0m
+[0.662s] [ 35%] Built target gtest_utils
+[0.747s] [ 55%] Built target moveit_task_constructor_core_stages
+[0.780s] [ 56%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-properties[0m
+[0.784s] [ 57%] [32m[1mLinking CXX shared library libmoveit_task_constructor_core_stage_plugins.so[0m
+[0.784s] [ 58%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-cost-queue[0m
+[0.784s] [ 60%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-serial[0m
+[0.786s] [ 61%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-interface-state[0m
+[0.786s] [ 62%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-move-relative[0m
+[0.786s] [ 63%] [32m[1mLinking CXX executable pick_ur5[0m
+[0.786s] [ 64%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-pruning[0m
+[0.787s] [ 65%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-stage[0m
+[0.789s] [ 67%] [32m[1mLinking CXX executable pick_pr2[0m
+[0.790s] [ 68%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-cost-terms[0m
+[0.791s] [ 69%] [32m[1mLinking CXX executable pick_pa10[0m
+[0.791s] [ 70%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-move-to[0m
+[0.792s] [ 71%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-mockups[0m
+[0.794s] [ 72%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-fallback[0m
+[0.795s] [ 74%] [32m[1mLinking CXX shared module pymoveit_mtc.cpython-310-x86_64-linux-gnu.so[0m
+[0.796s] [ 75%] [32m[1mLinking CXX executable moveit_task_constructor_core-test-container[0m
+[1.098s] [ 76%] Built target moveit_task_constructor_core_stage_plugins
+[1.282s] [ 77%] Built target moveit_task_constructor_core-test-serial
+[1.282s] [ 78%] Built target moveit_task_constructor_core-test-properties
+[1.310s] [ 80%] Built target pick_ur5
+[1.355s] [ 81%] Built target moveit_task_constructor_core-test-mockups
+[1.368s] [ 82%] Built target moveit_task_constructor_core-test-interface-state
+[1.388s] [ 83%] Built target pick_pr2
+[1.396s] [ 84%] Built target moveit_task_constructor_core-test-cost-queue
+[1.403s] [ 85%] Built target moveit_task_constructor_core-test-fallback
+[1.404s] [ 87%] Built target moveit_task_constructor_core-test-cost-terms
+[1.408s] [ 88%] Built target moveit_task_constructor_core-test-pruning
+[1.434s] [ 89%] Built target moveit_task_constructor_core-test-move-relative
+[1.438s] [ 90%] Built target moveit_task_constructor_core-test-container
+[1.455s] [ 91%] Built target pick_pa10
+[1.456s] [ 92%] Built target moveit_task_constructor_core-test-move-to
+[1.476s] [ 94%] Built target moveit_task_constructor_core-test-stage
+[2.420s] lto-wrapper: warning: using serial compilation of 12 LTRANS jobs
+[10.827s] [100%] Built target pymoveit_mtc

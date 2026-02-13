@@ -1,0 +1,47 @@
+[0.021s] Invoking command in '/home/aaron/ur_ws/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aaron/ur_ws/src/moveit_visual_tools -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/moveit_visual_tools
+[0.033s] -- Found moveit_common: 2.5.9 (/home/aaron/ur_ws/install/moveit_common/share/moveit_common/cmake)
+[0.034s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.620s] [0mmoveit_visual_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.639s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.744s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.755s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.778s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.042s] -- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)
+[1.117s] -- Found moveit_core: 2.5.9 (/home/aaron/ur_ws/install/moveit_core/share/moveit_core/cmake)
+[1.798s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.944s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.118s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.126s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.495s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.592s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.752s] -- Found Threads: TRUE  
+[2.934s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.049s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.358s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.582s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.583s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.944s] -- Found moveit_ros_planning: 2.5.9 (/home/aaron/ur_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[4.969s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.168s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[5.168s]   By not providing "Findrviz_visual_tools.cmake" in CMAKE_MODULE_PATH this
+[5.168s]   project has asked CMake to find a package configuration file provided by
+[5.168s]   "rviz_visual_tools", but CMake did not find one.
+[5.168s] 
+[5.168s]   Could not find a package configuration file provided by "rviz_visual_tools"
+[5.168s]   with any of the following names:
+[5.168s] 
+[5.168s]     rviz_visual_toolsConfig.cmake
+[5.168s]     rviz_visual_tools-config.cmake
+[5.168s] 
+[5.168s]   Add the installation prefix of "rviz_visual_tools" to CMAKE_PREFIX_PATH or
+[5.168s]   set "rviz_visual_tools_DIR" to a directory containing one of the above
+[5.168s]   files.  If "rviz_visual_tools" provides a separate development package or
+[5.169s]   SDK, be sure it has been installed.
+[5.169s] 
+[5.169s] [0m
+[5.169s] -- Configuring incomplete, errors occurred!
+[5.169s] See also "/home/aaron/ur_ws/build/moveit_visual_tools/CMakeFiles/CMakeOutput.log".
+[5.218s] Invoked command in '/home/aaron/ur_ws/build/moveit_visual_tools' returned '1': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/aaron/ur_ws/src/moveit_visual_tools -DCMAKE_INSTALL_PREFIX=/home/aaron/ur_ws/install/moveit_visual_tools

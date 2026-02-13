@@ -1,0 +1,20 @@
+[0.371s] Invoking command in '/home/aaron/ur_ws/build/moveit_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_control -- -j20 -l20
+[0.584s] Invoked command in '/home/aaron/ur_ws/build/moveit_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaron/ur_ws/build/moveit_control -- -j20 -l20
+[0.645s] Invoking command in '/home/aaron/ur_ws/build/moveit_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaron/ur_ws/build/moveit_control
+[0.665s] -- Install configuration: ""
+[0.665s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/package_run_dependencies/moveit_control
+[0.665s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/parent_prefix_path/moveit_control
+[0.665s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.sh
+[0.665s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.dsv
+[0.665s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/path.sh
+[0.665s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/path.dsv
+[0.666s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.bash
+[0.666s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.sh
+[0.666s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.zsh
+[0.666s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.dsv
+[0.666s] -- Installing: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/package.dsv
+[0.666s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/packages/moveit_control
+[0.666s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig.cmake
+[0.666s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig-version.cmake
+[0.667s] -- Up-to-date: /home/aaron/ur_ws/install/moveit_control/share/moveit_control/package.xml
+[0.715s] Invoked command in '/home/aaron/ur_ws/build/moveit_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaron/ur_ws/build/moveit_control

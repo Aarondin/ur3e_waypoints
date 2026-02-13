@@ -1,0 +1,3 @@
+sudo docker run --rm -it -p 5900:5900 -p 6080:6080 --name ursim universalrobots/ursim_e-series
+ros2 launch ur_robot_driver ur3e.launch.py ur_type:=ur3e robot_ip:=172.17.0.2
+ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur3e launch_rviz:=true

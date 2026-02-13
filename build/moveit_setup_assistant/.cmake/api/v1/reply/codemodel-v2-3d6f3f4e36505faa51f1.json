@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-97b420ff3dc5cce6ebaf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_setup_assistant",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant-Release-175fad764e2f98c3a606.json",
+					"name" : "moveit_setup_assistant",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_autogen-Release-09c9cb071766bea66c8c.json",
+					"name" : "moveit_setup_assistant_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_uninstall-Release-5f2a97f42de34a8d2987.json",
+					"name" : "moveit_setup_assistant_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_updater::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_updater-Release-163f433d731e17edb51b.json",
+					"name" : "moveit_setup_assistant_updater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_assistant_updater_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_assistant_updater_autogen-Release-ae550b24837f6f27eaa7.json",
+					"name" : "moveit_setup_assistant_updater_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-e7df60aadd5d6b67b090.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aaron/ur_ws/build/moveit_setup_assistant",
+		"source" : "/home/aaron/ur_ws/src/moveit2/moveit_setup_assistant/moveit_setup_assistant"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,14 @@
+[  4%] [34m[1mAutomatic MOC for target gtest[0m
+[  8%] [34m[1mAutomatic MOC for target gtest_main[0m
+[ 12%] [34m[1mAutomatic MOC for target moveit_setup_app_plugins[0m
+[ 12%] Built target gtest_main_autogen
+[ 12%] Built target gtest_autogen
+[ 12%] Built target moveit_setup_app_plugins_autogen
+[ 24%] Built target gtest_main
+[ 36%] Built target gtest
+[ 40%] [32m[1mLinking CXX shared library libmoveit_setup_app_plugins.so[0m
+[ 84%] Built target moveit_setup_app_plugins
+[ 88%] [34m[1mAutomatic MOC for target test_perception[0m
+[ 88%] Built target test_perception_autogen
+[ 92%] [32m[1mLinking CXX executable test_perception[0m
+[100%] Built target test_perception

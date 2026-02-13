@@ -1,0 +1,16 @@
+/home/aaron/ur_ws/install/moveit_control/lib/moveit_control/moveit_pub
+/home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/package_run_dependencies/moveit_control
+/home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/parent_prefix_path/moveit_control
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.sh
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.dsv
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/path.sh
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/path.dsv
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.bash
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.sh
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.zsh
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/local_setup.dsv
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/package.dsv
+/home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/packages/moveit_control
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig.cmake
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/cmake/moveit_controlConfig-version.cmake
+/home/aaron/ur_ws/install/moveit_control/share/moveit_control/package.xml
