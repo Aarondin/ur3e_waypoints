@@ -1,0 +1,32 @@
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:[m[K In constructor ‘[01m[KForwardPublisher::ForwardPublisher(std::vector<std::vector<double, std::allocator<double> > >&)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:68:42:[m[K [01;35m[Kwarning: [m[K‘[01m[KForwardPublisher::waypoints_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   68 |         std::vector<std::vector<double>> [01;35m[Kwaypoints_[m[K;
+      |                                          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:67:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksize_t ForwardPublisher::index_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   67 |         size_t [01;35m[Kindex_[m[K;
+      |                [01;35m[K^~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:38:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   38 |         [01;35m[KForwardPublisher[m[K(std::vector<std::vector<double>>& path_dat) : Node("waypoint_publisher"), waypoints_(path_dat), index_(0)
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:[m[K In member function ‘[01m[Kvoid ForwardPublisher::timer_callback()[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:57:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   57 |             for (int i = 0; [01;35m[Ki < msg.data.size()[m[K; i++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:4[m[K:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:60:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_stringstream<char>[m[K’} has no member named ‘[01m[Kc_str[m[K’; did you mean ‘[01m[Kstr[m[K’?
+   60 |             RCLCPP_INFO(this->get_logger(), ss.[01;31m[Kc_str[m[K());
+      |                                                [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/forward_pub.dir/build.make:76: CMakeFiles/forward_pub.dir/src/forward_positions.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/forward_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

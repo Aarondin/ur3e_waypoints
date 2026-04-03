@@ -1,0 +1,37 @@
+[0.049s] Invoking command in '/home/aaron/ur_ws/build/pilz_industrial_motion_planner': AMENT_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_resources_prbt_pg70_support:/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_resources_prbt_moveit_config:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/moveit_configs_utils:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_prbt_support:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/home/aaron/ur_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaron/ur_ws/install/moveit_resources_prbt_pg70_support:/home/aaron/ur_ws/install/moveit_ros_planning_interface:/home/aaron/ur_ws/install/moveit_resources_prbt_moveit_config:/home/aaron/ur_ws/install/moveit_ros_move_group:/home/aaron/ur_ws/install/moveit_ros_warehouse:/home/aaron/ur_ws/install/moveit_planners_ompl:/home/aaron/ur_ws/install/moveit_kinematics:/home/aaron/ur_ws/install/moveit_ros_planning:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils:/home/aaron/ur_ws/install/moveit_simple_controller_manager:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aaron/ur_ws/install/moveit_core:/home/aaron/ur_ws/install/moveit_resources_panda_moveit_config:/home/aaron/ur_ws/install/moveit_resources_fanuc_moveit_config:/home/aaron/ur_ws/install/srdfdom:/home/aaron/ur_ws/install/moveit_resources_prbt_support:/home/aaron/ur_ws/install/moveit_resources_pr2_description:/home/aaron/ur_ws/install/moveit_resources_panda_description:/home/aaron/ur_ws/install/moveit_resources_fanuc_description:/home/aaron/ur_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/aaron/ur_ws/install/moveit_ros_planning_interface/lib:/home/aaron/ur_ws/install/moveit_ros_move_group/lib:/home/aaron/ur_ws/install/moveit_ros_warehouse/lib:/home/aaron/ur_ws/install/moveit_planners_ompl/lib:/home/aaron/ur_ws/install/moveit_kinematics/lib:/home/aaron/ur_ws/install/moveit_ros_planning/lib:/home/aaron/ur_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/aaron/ur_ws/install/moveit_simple_controller_manager/lib:/home/aaron/ur_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/aaron/ur_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/aaron/ur_ws/install/moveit_core/lib:/home/aaron/ur_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/aaron/ur_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/aaron/ur_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aaron/ur_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/aaron/ur_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aaron/ur_ws/build/pilz_industrial_motion_planner -- -j20 -l20
+[0.123s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.123s] [  3%] [32mBuilding CXX object CMakeFiles/planning_context_loader_base.dir/src/planning_context_loader.cpp.o[0m
+[0.124s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.132s] [  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.132s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.134s] [  7%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/joint_limits_validator.cpp.o[0m
+[0.134s] [  8%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/limits_container.cpp.o[0m
+[0.138s] [  9%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/joint_limits_aggregator.cpp.o[0m
+[0.143s] [ 10%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/joint_limits_container.cpp.o[0m
+[0.145s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[0.148s] [ 13%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/cartesian_limit.cpp.o[0m
+[0.149s] [ 14%] [32mBuilding CXX object CMakeFiles/joint_limits_common.dir/src/cartesian_limits_aggregator.cpp.o[0m
+[0.166s] [ 15%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_functions.cpp.o[0m
+[0.179s] [ 16%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_generator.cpp.o[0m
+[0.179s] [ 18%] [32mBuilding CXX object CMakeFiles/trajectory_generation_common.dir/src/trajectory_blender_transition_window.cpp.o[0m
+[5.048s] [ 19%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.265s] [ 19%] Built target gtest_main
+[6.687s] [ 20%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.915s] [ 20%] Built target gmock_main
+[36.179s] [ 21%] [32m[1mLinking CXX shared library libplanning_context_loader_base.so[0m
+[47.706s] [ 22%] [32m[1mLinking CXX static library libgmock.a[0m
+[48.068s] [ 22%] Built target gmock
+[48.560s] [ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[48.826s] [ 24%] Built target gtest
+[49.181s] gmake[2]: *** Deleting file 'libplanning_context_loader_base.so'
+[49.181s] gmake[2]: *** [CMakeFiles/joint_limits_common.dir/build.make:76: CMakeFiles/joint_limits_common.dir/src/joint_limits_aggregator.cpp.o] Interrupt
+[49.181s] gmake[2]: *** [CMakeFiles/trajectory_generation_common.dir/build.make:90: CMakeFiles/trajectory_generation_common.dir/src/trajectory_generator.cpp.o] Interrupt
+[49.181s] gmake[2]: *** [CMakeFiles/trajectory_generation_common.dir/build.make:104: CMakeFiles/trajectory_generation_common.dir/src/trajectory_blender_transition_window.cpp.o] Interrupt
+[49.182s] gmake[2]: *** wait: No child processes.  Stop.
+[49.182s] gmake[2]: *** Waiting for unfinished jobs....
+[49.182s] gmake[2]: *** wait: No child processes.  Stop.
+[49.182s] gmake[1]: *** [CMakeFiles/Makefile2:302: CMakeFiles/joint_limits_common.dir/all] Interrupt
+[49.182s] gmake[1]: *** [CMakeFiles/Makefile2:328: CMakeFiles/trajectory_generation_common.dir/all] Error 2
+[49.222s] gmake[2]: *** [CMakeFiles/planning_context_loader_base.dir/build.make:356: libplanning_context_loader_base.so] Interrupt
+[49.223s] gmake[1]: *** [CMakeFiles/Makefile2:276: CMakeFiles/planning_context_loader_base.dir/all] Interrupt
+[49.223s] gmake: *** [Makefile:146: all] Interrupt

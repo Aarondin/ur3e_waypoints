@@ -1,0 +1,9 @@
+[0mmoveit_ros_visualization: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+gmake[2]: *** [rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/build.make:76: rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/moveit_rviz_plugin_render_tools_autogen/mocs_compilation.cpp.o] Interrupt
+gmake[2]: *** [rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/build.make:90: rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/render_shapes.cpp.o] Interrupt
+gmake[2]: *** [rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/build.make:118: rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_scene_render.cpp.o] Interrupt
+gmake[2]: *** [rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/build.make:160: rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_visualization.cpp.o] Interrupt
+gmake[2]: *** [rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/build.make:104: rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/robot_state_visualization.cpp.o] Interrupt
+gmake[2]: *** [rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/build.make:132: rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/planning_link_updater.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:241: rviz_plugin_render_tools/CMakeFiles/moveit_rviz_plugin_render_tools.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

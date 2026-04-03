@@ -1,0 +1,8 @@
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/float64multiarray.hpp: No such file or directory
+    4 | #include [01;31m[K<std_msgs/msg/float64multiarray.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/forward_pub.dir/build.make:76: CMakeFiles/forward_pub.dir/src/forward_positions.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/forward_pub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

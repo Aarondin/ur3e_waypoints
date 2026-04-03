@@ -1,0 +1,12 @@
+gmake[2]: *** Deleting file 'libplanning_context_loader_base.so'
+gmake[2]: *** [CMakeFiles/joint_limits_common.dir/build.make:76: CMakeFiles/joint_limits_common.dir/src/joint_limits_aggregator.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/trajectory_generation_common.dir/build.make:90: CMakeFiles/trajectory_generation_common.dir/src/trajectory_generator.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/trajectory_generation_common.dir/build.make:104: CMakeFiles/trajectory_generation_common.dir/src/trajectory_blender_transition_window.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:302: CMakeFiles/joint_limits_common.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:328: CMakeFiles/trajectory_generation_common.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/planning_context_loader_base.dir/build.make:356: libplanning_context_loader_base.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:276: CMakeFiles/planning_context_loader_base.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

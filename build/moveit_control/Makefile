@@ -210,6 +210,43 @@ moveit_pub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_pub.dir/build.make CMakeFiles/moveit_pub.dir/build
 .PHONY : moveit_pub/fast
 
+#=============================================================================
+# Target rules for targets named forward_pub
+
+# Build rule for target.
+forward_pub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 forward_pub
+.PHONY : forward_pub
+
+# fast build rule for target.
+forward_pub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forward_pub.dir/build.make CMakeFiles/forward_pub.dir/build
+.PHONY : forward_pub/fast
+
+src/forward_positions.o: src/forward_positions.cpp.o
+.PHONY : src/forward_positions.o
+
+# target to build an object file
+src/forward_positions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forward_pub.dir/build.make CMakeFiles/forward_pub.dir/src/forward_positions.cpp.o
+.PHONY : src/forward_positions.cpp.o
+
+src/forward_positions.i: src/forward_positions.cpp.i
+.PHONY : src/forward_positions.i
+
+# target to preprocess a source file
+src/forward_positions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forward_pub.dir/build.make CMakeFiles/forward_pub.dir/src/forward_positions.cpp.i
+.PHONY : src/forward_positions.cpp.i
+
+src/forward_positions.s: src/forward_positions.cpp.s
+.PHONY : src/forward_positions.s
+
+# target to generate assembly for a file
+src/forward_positions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forward_pub.dir/build.make CMakeFiles/forward_pub.dir/src/forward_positions.cpp.s
+.PHONY : src/forward_positions.cpp.s
+
 src/moveit_waypoints.o: src/moveit_waypoints.cpp.o
 .PHONY : src/moveit_waypoints.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... moveit_control_uninstall"
 	@echo "... uninstall"
+	@echo "... forward_pub"
 	@echo "... moveit_pub"
+	@echo "... src/forward_positions.o"
+	@echo "... src/forward_positions.i"
+	@echo "... src/forward_positions.s"
 	@echo "... src/moveit_waypoints.o"
 	@echo "... src/moveit_waypoints.i"
 	@echo "... src/moveit_waypoints.s"

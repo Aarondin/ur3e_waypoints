@@ -1,0 +1,85 @@
+[35m[1mConsolidate compiler generated dependencies of target forward_pub[0m
+[ 50%] Built target moveit_pub
+[ 75%] [32mBuilding CXX object CMakeFiles/forward_pub.dir/src/forward_positions.cpp.o[0m
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:[m[K In constructor ‘[01m[KForwardPublisher::ForwardPublisher(std::vector<std::vector<double, std::allocator<double> > >&)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:68:42:[m[K [01;35m[Kwarning: [m[K‘[01m[KForwardPublisher::waypoints_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   68 |         std::vector<std::vector<double>> [01;35m[Kwaypoints_[m[K;
+      |                                          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:67:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Ksize_t ForwardPublisher::index_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   67 |         size_t [01;35m[Kindex_[m[K;
+      |                [01;35m[K^~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:38:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   38 |         [01;35m[KForwardPublisher[m[K(std::vector<std::vector<double>>& path_dat) : Node("waypoint_publisher"), waypoints_(path_dat), index_(0)
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:4[m[K:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:[m[K In member function ‘[01m[Kvoid ForwardPublisher::timer_callback()[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:55:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+   55 |             RCLCPP_INFO(this->get_logger(), [01;31m[Kstd::to_string(index_)[m[K);
+      |                                             [01;31m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+      |                                                           [01;31m[K|[m[K
+      |                                                           [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  479 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:58:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   58 |             for (int i = 0; [01;35m[Ki < msg.data.size()[m[K; i++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:4[m[K:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:61:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::stringstream[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_stringstream<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+   61 |             RCLCPP_INFO(this->get_logger(), [01;31m[Kss[m[K)
+      |                                             [01;31m[K^~[m[K
+      |                                             [01;31m[K|[m[K
+      |                                             [01;31m[Kstd::stringstream {aka std::__cxx11::basic_stringstream<char>}[m[K
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  479 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:63:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kindex_[m[K’
+   63 |             [01;31m[Kindex_[m[K++;
+      |             [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/forward_pub.dir/build.make:76: CMakeFiles/forward_pub.dir/src/forward_positions.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/forward_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,4 +1,5 @@
 /home/aaron/ur_ws/install/moveit_control/lib/moveit_control/moveit_pub
+/home/aaron/ur_ws/install/moveit_control/lib/moveit_control/forward_pub
 /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/package_run_dependencies/moveit_control
 /home/aaron/ur_ws/install/moveit_control/share/ament_index/resource_index/parent_prefix_path/moveit_control
 /home/aaron/ur_ws/install/moveit_control/share/moveit_control/environment/ament_prefix_path.sh

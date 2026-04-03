@@ -1,0 +1,7 @@
+gmake[2]: *** [CMakeFiles/moveit_servo_lib_parameters.dir/build.make:76: CMakeFiles/moveit_servo_lib_parameters.dir/src/servo_parameters.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/moveit_servo_lib_parameters.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/servo_controller_input.dir/build.make:76: CMakeFiles/servo_controller_input.dir/src/teleop_demo/joystick_servo_example.cpp.o] Interrupt
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:283: CMakeFiles/servo_controller_input.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:506: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

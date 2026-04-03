@@ -1,0 +1,71 @@
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:8:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 | std::vector<std::vector<std::double[01;31m[K>>[m[K csv_to_waypoints(const std::string& path) {
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:8:36:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:8:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 | std::vector<std::vector<std::double>> csv_to_waypoints(const std::string& path[01;31m[K)[m[K {
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:8:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:8:81:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+    8 | std::vector<std::vector<std::double>> csv_to_waypoints(const std::string& path) [01;31m[K{[m[K
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:[m[K In constructor ‘[01m[KForwardPublisher::ForwardPublisher(std::vector<std::vector<double, std::allocator<double> > >&)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:44:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > >[m[K’ and ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’)
+   44 |             waypoints = [01;31m[Kpath_dat[m[K;
+      |                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = std::vector<std::__cxx11::basic_string<char> >; _Alloc = std::allocator<std::vector<std::__cxx11::basic_string<char> > >][m[K’
+  198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kconst std::vector<std::vector<std::__cxx11::basic_string<char> > >&[m[K’
+  199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+      |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::vector<std::__cxx11::basic_string<char> >; _Alloc = std::allocator<std::vector<std::__cxx11::basic_string<char> > >][m[K’
+  709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kstd::vector<std::vector<std::__cxx11::basic_string<char> > >&&[m[K’
+  709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+      |                 [01;36m[K~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = std::vector<std::__cxx11::basic_string<char> >; _Alloc = std::allocator<std::vector<std::__cxx11::basic_string<char> > >][m[K’
+  730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >[m[K’ to ‘[01m[Kstd::initializer_list<std::vector<std::__cxx11::basic_string<char> > >[m[K’
+  730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:[m[K In member function ‘[01m[Kvoid ForwardPublisher::timer_callback()[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:50:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwaypoints[m[K’?
+   50 |             if (index_ >= [01;31m[Kwaypoints_[m[K.size()) {
+      |                           [01;31m[K^~~~~~~~~~[m[K
+      |                           [32m[Kwaypoints[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:57:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwaypoints[m[K’?
+   57 |             msg.data = [01;31m[Kwaypoints_[m[K[index_];
+      |                        [01;31m[K^~~~~~~~~~[m[K
+      |                        [32m[Kwaypoints[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:71:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcsv_to_waypoints[m[K’ was not declared in this scope
+   71 |     auto waypoints = [01;31m[Kcsv_to_waypoints[m[K(path);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aaron/ur_ws/src/moveit_control/src/forward_positions.cpp:74:35:[m[K [01;31m[Kerror: [m[K‘[01m[KForwardPubllisher[m[K’ was not declared in this scope; did you mean ‘[01m[KForwardPublisher[m[K’?
+   74 |     rclcpp::spin(std::make_shared<[01;31m[KForwardPubllisher[m[K>(waypoints));
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[KForwardPublisher[m[K
+gmake[2]: *** [CMakeFiles/forward_pub.dir/build.make:76: CMakeFiles/forward_pub.dir/src/forward_positions.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/forward_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

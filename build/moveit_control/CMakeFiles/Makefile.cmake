@@ -1372,4 +1372,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/moveit_control_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/moveit_pub.dir/DependInfo.cmake"
+  "CMakeFiles/forward_pub.dir/DependInfo.cmake"
   )

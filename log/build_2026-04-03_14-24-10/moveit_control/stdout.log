@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target forward_pub[0m
+[ 50%] Built target moveit_pub
+[ 75%] [32mBuilding CXX object CMakeFiles/forward_pub.dir/src/forward_positions.cpp.o[0m

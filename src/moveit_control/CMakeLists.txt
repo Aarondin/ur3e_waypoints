@@ -39,8 +39,15 @@ ament_target_dependencies(moveit_pub
   moveit_ros_planning_interface 
   tf2)
 
+add_executable(forward_pub src/forward_positions.cpp)
+ament_target_dependencies(forward_pub
+  rclcpp
+  std_msgs
+  tf2)
+
 install(TARGETS
   moveit_pub
+  forward_pub
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

@@ -1,0 +1,24 @@
+gmake[2]: *** [CMakeFiles/core.dir/build.make:146: CMakeFiles/core.dir/src/moveit/moveit_core/kinematic_constraints/utils.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:104: CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/collision_matrix.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:132: CMakeFiles/core.dir/src/moveit/moveit_core/controller_manager/controller_manager.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:174: CMakeFiles/core.dir/src/moveit/moveit_core/planning_scene/planning_scene.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:188: CMakeFiles/core.dir/src/moveit/moveit_core/transforms/transforms.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:230: CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/robot_model.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:90: CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/collision_common.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:76: CMakeFiles/core.dir/src/moveit/core.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/planning.dir/build.make:76: CMakeFiles/planning.dir/src/moveit/planning.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/planning.dir/build.make:104: CMakeFiles/planning.dir/src/moveit/moveit_ros/moveit_cpp/planning_component.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:216: CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/joint_model_group.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/planning.dir/build.make:118: CMakeFiles/planning.dir/src/moveit/moveit_ros/planning_scene_monitor/planning_scene_monitor.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/planning.dir/build.make:132: CMakeFiles/planning.dir/src/moveit/moveit_ros/trajectory_execution_manager/trajectory_execution_manager.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/planning.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/core.dir/build.make:118: CMakeFiles/core.dir/src/moveit/moveit_core/collision_detection/world.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/core.dir/build.make:202: CMakeFiles/core.dir/src/moveit/moveit_core/robot_model/joint_model.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

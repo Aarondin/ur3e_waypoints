@@ -1,0 +1,85 @@
+[  4%] Built target gtest_main
+[  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_setup_srdf_plugins[0m
+[  8%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/compute_default_collisions.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions_widget.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_edit_widget.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints_widget.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses_widget.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints_widget.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_end_effectors_widget.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_default_collisions_widget.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_kinematic_chain_widget.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_group_edit_widget.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_passive_joints_widget.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_planning_groups_widget.cpp.o[0m
+[ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 52%] Built target gtest
+[ 54%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_robot_poses_widget.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_rotated_header_view.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_virtual_joints_widget.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libmoveit_setup_srdf_plugins.so[0m
+[ 95%] Built target moveit_setup_srdf_plugins
+[35m[1mConsolidate compiler generated dependencies of target test_srdf[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/test_srdf.dir/test/test_srdf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_srdf[0m
+[100%] Built target test_srdf
+-- Install configuration: "Release"
+-- Installing: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so
+-- Set runtime path of "/home/aaron/ur_ws/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so" to ""
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_linear_model.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/group_edit_widget.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/rotated_header_view.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors_widget.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/kinematic_chain_widget.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses_widget.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/srdf_step.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints_widget.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/virtual_joints.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/virtual_joints_widget.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/default_collisions.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_matrix_model.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/planning_groups_widget.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/planning_groups.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/group_meta_config.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/compute_default_collisions.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/default_collisions_widget.hpp
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.sh
+-- Installing: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_srdf_plugins
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_srdf_plugins
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.sh
+-- Installing: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.bash
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.sh
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.zsh
+-- Installing: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.dsv
+-- Installing: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.dsv
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/packages/moveit_setup_srdf_plugins
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_srdf_plugins
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport-release.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig-version.cmake
+-- Up-to-date: /home/aaron/ur_ws/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.xml
